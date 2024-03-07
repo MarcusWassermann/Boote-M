@@ -1,9 +1,14 @@
 import 'package:flutter/material.dart';
 
 class BoatDataField extends StatelessWidget {
+  final int index;
   final String label;
 
-  const BoatDataField({super.key, required this.label});
+  const BoatDataField({
+    super.key,
+    required this.index,
+    required this.label,
+  });
 
   @override
   Widget build(BuildContext context) {
